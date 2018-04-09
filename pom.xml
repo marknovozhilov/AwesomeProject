@@ -4,7 +4,11 @@
     <groupId>ru.markhero.awesomeProject</groupId>
     <artifactId>AwesomeProject</artifactId>
     <version>2.12.0</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
+    <name>Awesome Project Official</name>
+    <modules>
+        <module>war</module>
+    </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
